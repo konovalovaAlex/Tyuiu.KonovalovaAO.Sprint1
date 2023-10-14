@@ -34,7 +34,6 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task0.V0
 
             Console.WriteLine(ds.Calculate());
             Console.ReadLine();
-
         }
     }
 }
