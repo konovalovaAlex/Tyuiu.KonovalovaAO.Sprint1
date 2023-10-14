@@ -14,7 +14,7 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task4.v30
             Console.Title = "Спринт #1 | Выполнила Коновалова А. О. /СМАРТб-23-1 ";
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* Спринт #1                                                              *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                *");
+            Console.WriteLine("* Тема:  Class Math                                                      *");
             Console.WriteLine("* Задание #4                                                             *");
             Console.WriteLine("* Вариант #30                                                            *");
             Console.WriteLine("* выполнила: Коновалова Александра Олеговна | СМАРТб-23-1                *");
