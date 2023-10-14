@@ -2,11 +2,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Tyuiu.KonovalovaAO.Sprint1.Task0.V0.Test")]
+[assembly: AssemblyTitle("Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Tyuiu.KonovalovaAO.Sprint1.Task0.V0.Test")]
+[assembly: AssemblyProduct("Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Test")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
