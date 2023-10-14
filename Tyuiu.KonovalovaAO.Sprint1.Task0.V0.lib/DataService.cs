@@ -12,7 +12,9 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task0.V0.Lib
     {
         public double Calculate()
         {
+
             return 9 / 3 * 2 + 12 / 4 / 3 - 2;
+
         }
     }
 }
