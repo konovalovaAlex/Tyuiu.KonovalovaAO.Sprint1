@@ -12,19 +12,8 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task6.V8.Lib
     {
         public string MoveLetterToEnd(string value)
         {
-            string[] words = value.Split(' ');
-
-            StringBuilder result = new StringBuilder();
-            foreach (string word in words)
-            {
-                if (!string.IsNullOrWhiteSpace(word))
-                {
-                    char firstLetter = word[0];
-                    string modifiedWord = word.Substring(1) + firstLetter;
-                    result.Append(modifiedWord + " ");
-                }
-            }
-            return result.ToString().Trim();
+            value = string.Join("", value.Skip(1)) + value[0];
+            return value;
 
         }
     }

@@ -11,10 +11,10 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task6.V8.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string srt = "мир";
+            string strTest = "Локи бог обмана";
             DataService ds = new DataService();
-            string res = ds.MoveLetterToEnd(srt);
-            string wait = "рим";
+            string res = ds.MoveLetterToEnd(strTest);
+            string wait = "оки бог обманаЛ";
             Assert.AreEqual(wait, res);
         }
     }
