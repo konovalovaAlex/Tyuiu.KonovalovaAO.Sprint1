@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C4921B40-D90A-46F8-A688-E61D8B8D08F3}</ProjectGuid>
+    <ProjectGuid>{6AA77B14-4AA2-4CBF-BA2F-8B6D11D41151}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.KonovalovaAO.Sprint1.Task0.V0</RootNamespace>
-    <AssemblyName>Tyuiu.KonovalovaAO.Sprint1.Task0.V0</AssemblyName>
+    <RootNamespace>Tyuiu.KonovalovaAO.Sprint1.Task0.V17</RootNamespace>
+    <AssemblyName>Tyuiu.KonovalovaAO.Sprint1.Task0.V17</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.KonovalovaAO.Sprint1.Task0.V0.lib\Tyuiu.KonovalovaAO.Sprint1.Task0.V17.lib.csproj">
-      <Project>{b5eb2f40-9f51-4093-9770-68ba9354bc72}</Project>
-      <Name>Tyuiu.KonovalovaAO.Sprint1.Task0.V17.lib</Name>
+    <ProjectReference Include="..\Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Lib\Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Lib.csproj">
+      <Project>{7b09a14a-9e63-4539-88cf-305c6f68f07e}</Project>
+      <Name>Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

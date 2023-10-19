@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Lib;
-
 namespace Tyuiu.KonovalovaAO.Sprint1.Task0.V17
 {
     class Program
     {
         static void Main(string[] args)
         {
+
             DataService ds = new DataService();
             Console.Title = "Спринт #1 | Выполнила Коновалова А. О. /СМАРТб-23-1 ";
             Console.WriteLine("**************************************************************************");
@@ -34,6 +34,9 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task0.V17
 
             Console.WriteLine(ds.Calculate());
             Console.ReadLine();
+
+
+
         }
     }
 }

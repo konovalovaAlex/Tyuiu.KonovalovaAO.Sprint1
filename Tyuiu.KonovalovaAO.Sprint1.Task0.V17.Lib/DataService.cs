@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using tyuiu.cources.programming.interfaces.Sprint1;
-
 namespace Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Lib
 {
     public class DataService : ISprint1Task0V17
@@ -17,4 +15,5 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Lib
 
         }
     }
+
 }

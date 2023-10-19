@@ -1,8 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-
 using Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Lib;
-
 namespace Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Test
 {
     [TestClass]
@@ -17,5 +15,6 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task0.V17.Test
             Assert.AreEqual(5, res);
 
         }
+
     }
 }
