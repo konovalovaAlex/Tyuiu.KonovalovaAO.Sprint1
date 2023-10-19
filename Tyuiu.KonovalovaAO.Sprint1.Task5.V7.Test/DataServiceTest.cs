@@ -9,10 +9,10 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task5.V7.Test
         [TestMethod]
         public void VolidEspression()
         {
-            
+
             double f = 48;
             DataService ds = new DataService();
-            double res = ds.AngleToHoursMinutes(f);           
+            double res = ds.AngleToHoursMinutes(f);
             int result = Convert.ToInt32(res);
             int wait = 1;
             Assert.AreEqual(wait, result);

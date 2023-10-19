@@ -10,8 +10,7 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task5.V7
     {
         static void Main(string[] args)
         {
-           
-            
+
             DataService ds = new DataService();
             Console.Title = "Спринт #1 | Выполнила Коновалова А. О. /СМАРТб-23-1 ";
             Console.WriteLine("**************************************************************************");
@@ -22,7 +21,7 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task5.V7
             Console.WriteLine("* выполнила: Коновалова Александра Олеговна | СМАРТб-23-1                *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
-            Console.WriteLine("* Написать программу из операций сравнений и арифметических выражений,                            *");
+            Console.WriteLine("* Написать программу из операций сравнений и арифметических выражений,   *");
             Console.WriteLine("*                                                                        *");
             Console.WriteLine("*                                                                        *");
             Console.WriteLine("**************************************************************************");
@@ -39,6 +38,8 @@ namespace Tyuiu.KonovalovaAO.Sprint1.Task5.V7
             int res = Convert.ToInt32(ds.AngleToHoursMinutes(f));
             Console.WriteLine("полное количество часов прошедших от начала суток = " + res);
             Console.ReadLine();
+
+
         }
     }
 }

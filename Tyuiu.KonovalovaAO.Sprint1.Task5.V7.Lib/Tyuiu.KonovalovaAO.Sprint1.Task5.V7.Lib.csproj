@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B5163DA7-A133-437D-A1E9-6F0E19D92977}</ProjectGuid>
+    <ProjectGuid>{65E592FA-A516-42BE-99D6-9A2B8052A81B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tyuiu.KonovalovaAO.Sprint1.Task5.V7.Lib</RootNamespace>
@@ -40,7 +40,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="tyuiu.cources.programming.interfaces">
-      <HintPath>..\..\DLL\tyuiu.cources.programming.interfaces.dll</HintPath>
+      <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
